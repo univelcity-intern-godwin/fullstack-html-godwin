@@ -13,6 +13,7 @@
     --theme-green-cyan: #00d084;
     --theme-transparent: transparent;
     --theme-font-family: "Nunito", sans-serif;
+    --theme-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 
@@ -333,7 +334,7 @@ a, li, ul {
     align-items: center;
     background: var(--theme-color);
     border-radius: 4px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: var(--theme-shadow);
     padding: 1rem;
     text-wrap: nowrap;
 }
@@ -343,6 +344,41 @@ a, li, ul {
     transition: all 1s ease-in-out;
     cursor: pointer;
 }
+
+
+
+/* CONTACT CSS */
+
+.contact-section {
+    margin: 8rem 0rem 5rem 0rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--theme-color);
+    box-shadow: var(--theme-shadow);
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.contact-info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--theme-green-cyan);
+}
+
+.contact-info a:hover {
+    color: var(--theme-primary);
+}
+
+
+
 
 
 
@@ -466,6 +502,10 @@ a, li, ul {
     .skills-wrapper {
         grid-template-columns: repeat(5, minmax(0, 1fr));
     }
+
+    .contact-info {
+        width: 22rem;
+    }
 }
 
 
@@ -506,6 +546,9 @@ a, li, ul {
         grid-template-columns: repeat(10, minmax(0, 1fr));
     }
 
+    .contact-info {
+        width: 22rem;
+    }
 }
 
 
