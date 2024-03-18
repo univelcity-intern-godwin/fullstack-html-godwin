@@ -361,7 +361,7 @@ a, li, ul {
     gap: 1.5rem;
     background: var(--theme-color);
     box-shadow: var(--theme-shadow);
-    padding: 1rem;
+    padding: 1rem 2rem;
     margin-top: 1rem;
     width: 100%;
 }
