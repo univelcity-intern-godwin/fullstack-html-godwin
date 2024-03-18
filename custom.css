@@ -10,6 +10,7 @@
     --theme-color: #fff;
     --theme-primary: #17355c;
     --theme-secondary: #2e425c;
+    --theme-secondary-light: #2e425c16;
     --theme-green-cyan: #00d084;
     --theme-transparent: transparent;
     --theme-font-family: "Nunito", sans-serif;
@@ -350,7 +351,7 @@ a, li, ul {
 /* CONTACT CSS */
 
 .contact-section {
-    margin: 8rem 0rem 5rem 0rem;
+    margin: 8rem 0rem 0rem 0rem;
 }
 
 .contact-info {
@@ -379,7 +380,19 @@ a, li, ul {
 
 
 
-
+/* FOOTER SECTION CSS */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--theme-primary);
+    padding: 2rem 0rem;
+    border-top: 1px solid var(--theme-secondary-light);
+}
 
 
 
