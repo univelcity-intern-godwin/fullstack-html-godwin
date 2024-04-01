@@ -323,9 +323,10 @@ a, li, ul {
     margin: 8rem 0rem 5rem 0rem;
 }
 
+
 .skills-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
 }
 
@@ -382,10 +383,6 @@ a, li, ul {
 
 /* FOOTER SECTION CSS */
 .footer-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 100%;
     font-size: 13px;
     font-weight: 400;
@@ -457,9 +454,6 @@ a, li, ul {
         display: none;
     }
 
-    .skills-wrapper {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
 }
 
 
@@ -512,10 +506,6 @@ a, li, ul {
         display: none;
     }
 
-    .skills-wrapper {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
-    }
-
     .contact-info {
         width: 22rem;
     }
@@ -553,10 +543,6 @@ a, li, ul {
 
     .about-desc {
         display: block;
-    }
-
-    .skills-wrapper {
-        grid-template-columns: repeat(10, minmax(0, 1fr));
     }
 
     .contact-info {
