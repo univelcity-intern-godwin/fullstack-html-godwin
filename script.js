@@ -17,3 +17,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+
+// dropdown menu function
+document.addEventListener("DOMContentLoaded", function() {
+    const menuIcon = document.getElementById("menuIcon");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+
+    dropdownMenu.classList.add("hidden");
+
+    menuIcon.addEventListener("click", function() {
+      dropdownMenu.classList.toggle("show");
+    });
+  });

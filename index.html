@@ -13,7 +13,15 @@
     <!-- navigation bar -->
     <nav class="navbar">
       <a href="index.html">Godwin</a>
-      <ul class="nav-links">
+      <ul class="hidden sm:hidden md:flex lg:flex justify-center items-center gap-5">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <span class="block sm:block md:hidden lg:hidden xl:hidden cursor-pointer" id="menuIcon"><i class="fa-solid fa-bars"></i></span>
+      <ul class="dropdown-menu">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
