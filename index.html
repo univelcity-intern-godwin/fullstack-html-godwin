@@ -36,8 +36,8 @@
       </div>
       <div class="profile-info">
         <h2>Hi!</h2>
-        <span class="name">I'm Godwin Ahua</span>
-        <p class="stack">Full Stack Developer @<span>Univelcity</span></p>
+        <span class="name">I'm <span id="nameSpan"></span></span>
+        <p class="stack">Full Stack Developer @<span id="companySpan"></span></p>
 
         <!-- call to action -->
         <section class="profile-btn">
@@ -131,6 +131,15 @@
       </div>
     </section>
 
+    <form class="form-data">
+      <section>
+        <input id="emailInput" type="email" placeholder="enter your email" />
+        <button >Submit</button>
+      </section>
+      <p id="emailError" style="color: red; display: none;">Please enter a valid email address.</p>
+      <p id="emailValid" style="color: green; display: none;">Email Submitted Successfully</p>
+    </form>
+
 
 <!-- FOOTER SECTION -->
 
@@ -140,5 +149,6 @@
 
 
     <script type="text/javascript" src="/script.js"></script>
+    <script type="text/javascript" src="/data.js"></script>
   </body>
 </html>
